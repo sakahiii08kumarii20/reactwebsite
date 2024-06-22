@@ -1,0 +1,61 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    /* Center the navbar content horizontally */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    /* Center the content within the container */
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    /* Make the logo text bold */
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    /* Add some spacing between the logo and links */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    font-size: 1em;
+    font-weight: bold;
+    /* Make the navbar links text bold */
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: orangered;
+}
+
+.navbar-link a {
+    font-weight: bold;
+    /* Ensure the link text is bold */
+    color: inherit;
+    /* Inherit color to ensure it works with transition */
+    text-decoration: none;
+}
+
+.navbar-link a:hover {
+    color: orangered;
+}

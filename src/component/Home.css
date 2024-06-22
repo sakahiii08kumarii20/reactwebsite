@@ -1,0 +1,185 @@
+@keyframes backgroundChange {
+    0% { background-image: url('candidi4.jpeg');}
+    25% { background-image: url('wedding10.jpg');}
+    20% {background-image: url('wedding4.jpeg');}
+    75% {background-image: url('bday1.jpeg');}
+    100% {background-image: url('candidi4.jpeg');}
+    50% {background-image: url('candidi3.jpeg');}
+    }
+
+@keyframes fadeOutIn {
+    0%,20%,80%,100% { opacity: 1;}
+   40%,60% {opacity: 0;}
+}
+
+.home-container {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    animation: backgroundChange 15s infinite;
+    position: relative;
+    
+}
+
+.hero-section h1,
+.hero-section p {
+    font-size: 3em;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    animation: fadeOutIn 20s infinite;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.portfolio-button,
+.contact-button {
+    background: rgba(255, 255, 255, 0.8);
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-button a,
+.contact-button a {
+    color: black;
+    text-decoration: none;
+}
+
+.portfolio-button:hover,
+.contact-button:hover {
+    background-color: orangered;
+}
+
+.featured-work {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.featured-work h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work-grid {
+    display: flex;
+    justify-content: center;/*space-around;*/
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    background-color: #f8b9a4;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.work-item::before{
+    content: attr(data-title);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        font-size: 1.2em;
+        text-align: center;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+}
+
+.work-item:hover::before {
+    transform: translateY(0);
+}
+
+.work-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.work-item:hover img {
+    transform: scale(1.1);
+}
+
+.work-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #d4fc79, #96e6a1);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.call-to-action h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
