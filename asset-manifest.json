@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/reactwebsite/static/css/main.173be391.css",
+    "main.js": "/reactwebsite/static/js/main.064779a0.js",
+    "static/media/wedding10.jpg": "/reactwebsite/static/media/wedding10.d6e6bb66e553fa412d5f.jpg",
+    "static/media/wedding4.jpeg": "/reactwebsite/static/media/wedding4.8e962c2408ff4c807550.jpeg",
+    "static/media/wedding3.jpeg": "/reactwebsite/static/media/wedding3.4d07186a9e7b22fae26d.jpeg",
+    "static/media/wedding2.jpeg": "/reactwebsite/static/media/wedding2.2788511ee5a7ba7e66e3.jpeg",
+    "static/media/bday4.jpeg": "/reactwebsite/static/media/bday4.91e89845338f4dd9cf3d.jpeg",
+    "static/media/candid2.jpeg": "/reactwebsite/static/media/candid2.a61c8eb05ca75cf60039.jpeg",
+    "static/media/wedding1.jpeg": "/reactwebsite/static/media/wedding1.f509c67bb68e39397f41.jpeg",
+    "static/media/candid1.jpeg": "/reactwebsite/static/media/candid1.6a1128d92debf3baf249.jpeg",
+    "static/media/candidi3.jpeg": "/reactwebsite/static/media/candidi3.678d6ad30f7233aea791.jpeg",
+    "static/media/candidi4.jpeg": "/reactwebsite/static/media/candidi4.aea5b9bc7fda4c65ce20.jpeg",
+    "static/media/traditional4.jpeg": "/reactwebsite/static/media/traditional4.f434bb0f12e3fc823be8.jpeg",
+    "static/media/traditional1.jpeg": "/reactwebsite/static/media/traditional1.d4beccd2d088faa869ea.jpeg",
+    "static/media/bday3.jpeg": "/reactwebsite/static/media/bday3.4c5c4a6e19525460f431.jpeg",
+    "static/media/bday1.jpeg": "/reactwebsite/static/media/bday1.354dc7a56a15c9fc2fbb.jpeg",
+    "static/media/logo.jpeg": "/reactwebsite/static/media/logo.01f6f04c0bbcbcd42f6c.jpeg",
+    "static/media/bday2.jpeg": "/reactwebsite/static/media/bday2.6af3aa01ecc54cc8ed57.jpeg",
+    "static/media/traditional2.jpeg": "/reactwebsite/static/media/traditional2.3a3c7cdd38dbbf932b10.jpeg",
+    "static/media/traditional3.jpeg": "/reactwebsite/static/media/traditional3.99e5f552f512f44e585b.jpeg",
+    "index.html": "/reactwebsite/index.html",
+    "main.173be391.css.map": "/reactwebsite/static/css/main.173be391.css.map",
+    "main.064779a0.js.map": "/reactwebsite/static/js/main.064779a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.173be391.css",
+    "static/js/main.064779a0.js"
+  ]
+}
